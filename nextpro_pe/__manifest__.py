@@ -20,10 +20,13 @@
 
     # always loaded
     'data': [
-        # vistas de formulario
+        # vistas de formulario/ listas
         'views/res_company_view.xml',
         'views/res_partner_view.xml',
-        'views/catalogo_06_views.xml'   
+        'views/catalogo_06_views.xml', 
+
+        # seguridad
+        'security/ir.model.access.csv',   
     ],
     # only loaded in demonstration mode
     'demo': [
