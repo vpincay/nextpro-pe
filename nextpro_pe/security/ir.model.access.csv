@@ -1,2 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_saldoapp_saldoapp,saldoapp.saldoapp,model_saldoapp_saldoapp,,1,0,0,0
+access_nextpro_pe_catalogo_06,nextpro_pe.catalogo.06,model_nextpro_pe_catalogo_06,base.group_user,1,0,0,0
+access_nextpro_pe_catalogo_06_manager,nextpro_pe.catalogo.06.manager,model_nextpro_pe_catalogo_06,base.group_erp_manager,1,1,1,1
+access_nextpro_pe_catalogo_06_account_manager,nextprope.catalogo.06.manager,model_nextpro_pe_catalogo_06,account.group_account_manager,1,1,1,1

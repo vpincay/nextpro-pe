@@ -14,7 +14,7 @@ class ResPartner(models.Model):
     _inherit = 'res.partner'
 
     nxt_registration_name = fields.Char('Registration Name', size=128, index=True, )
-    nxt_catalog_06_id = fields.Many2one('nextpro_pe.catalog.06','Tipo Doc.', index=True)
+    nxt_catalogo_06_id = fields.Many2one('nextpro_pe.catalogo.06','Tipo Doc.', index=True)
     nxt_state = fields.Selection([('habido','Habido'),('nhabido','No Habido')],'State')
     
     state_id = fields.Many2one('res.country.state', 'Departamento')#Se reutiliza campo existen
@@ -72,14 +72,14 @@ class ResPartner(models.Model):
             address_format = '%(company_name)s\n' + address_format
         return address_format % args
 
-    @api.onchange('nxt_catalog_06_id','vat')
+    @api.onchange('nxt_catalogo_06_id','vat')
     def vat_change(self):
         self.update_document()
         
     def update_document(self):
         if not self.vat:
             return False
-        if self.nxt_catalog_06_id and self.nxt_catalog_06_id.code == '1':
+        if self.nxt_catalogo_06_id and self.nxt_catalogo_06_id.code == '1':
            #Valida DNI
             if self.vat and len(self.vat) != 8:
                 raise Warning('El Dni debe tener 8 caracteres')
@@ -92,7 +92,7 @@ class ResPartner(models.Model):
                                                d['ape_paterno'],
                                                d['ape_materno'])
 
-        elif self.nxt_catalog_06_id and self.nxt_catalog_06_id.code == '6':
+        elif self.nxt_catalogo_06_id and self.nxt_catalogo_06_id.code == '6':
             # Valida RUC
             if self.vat and len(self.vat) != 11:
                 raise Warning('El Ruc debe tener 11 caracteres')
