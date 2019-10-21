@@ -28,7 +28,8 @@
                     </group>                    
                 </form>	
             </field>
-	    </record>        
+	    </record> 
+           
 	    <record model="ir.actions.act_window" id="catalog_06_action">
 		    <field name="name">Tipos de documento de Identidad</field>
 		    <field name="res_model">nextpro_pe.catalogo.06</field>
