@@ -15,8 +15,8 @@
                 <field name="vat" position="attributes">
                     <attribute name="invisible">True</attribute>
                 </field>
-                <field name="l10n_latam.identification.type" position="attributes">
-                                <attribute name="invisible">True</attribute>
+                <field name="l10n_latam_identification_type" position="attributes">
+                        <attribute name="invisible">True</attribute>
                 </field>
                 <div class="o_row" position="before">
                     <div class="o_row">
