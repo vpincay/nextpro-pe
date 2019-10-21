@@ -34,7 +34,7 @@
             <field name="inherit_id" ref="base.res_partner_kanban_view"/>
             <field name="arch" type="xml">
                 <xpath expr="//kanban//div[hasclass('oe_kanban_details')]//ul/li[1]" position="before">
-                    <li t-if="record.vat.raw_value"><field t-if="record.nxt_catalog_06_id.raw_value" name="nxt_catalog_06_id"/>- <field name="vat"/></li>
+                    <li t-if="record.vat.raw_value"><field t-if="record.nxt_catalogo_06_id.raw_value" name="nxt_catalogo_06_id"/>- <field name="vat"/></li>
                 </xpath>                
             </field>
         </record>
