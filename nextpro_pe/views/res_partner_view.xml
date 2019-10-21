@@ -17,7 +17,7 @@
                 </field>
                 <div class="o_row" position="before">
                     <div class="o_row">
-                        <field name="nxt_catalog_06_id" placeholder="Tipo Doc." colspan="1" nolabel="1" widget="selection"/>
+                        <field name="nxt_catalogo_06_id" placeholder="Tipo Doc." colspan="1" nolabel="1" widget="selection"/>
                         <field name="vat" placeholder="Número de Documento" colspan="3" nolabel="1"/>   
                     </div> 
                     <div class="oe_left"> 
