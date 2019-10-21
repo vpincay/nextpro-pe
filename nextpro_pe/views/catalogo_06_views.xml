@@ -24,7 +24,6 @@
                             <field name="code"/>
                             <field name="name"/>
                             <field name="default"/>
-                            <field name="l10n_latam.identification.type" invisible="1"/>
                         </group>
                     </group>                    
                 </form>	
