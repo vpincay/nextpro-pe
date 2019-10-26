@@ -2072,11 +2072,13 @@
 -->
 
 <!-- Para modificar la estructura de la dirección para Perú-->
+<!--
 <record id="base.pe" model="res.country">
     <field name="name">Peru</field>
     <field name="code">pe</field>
     <field name="currency_id" ref="base.PEN"/>
 </record>
-        
+-->
+    
     </data>
 </openerp>
