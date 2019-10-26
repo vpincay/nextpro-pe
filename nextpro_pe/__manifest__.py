@@ -13,7 +13,11 @@
     # Check https://github.com/odoo/odoo/blob/12.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Accounting',
+    'application': True,
     'version': '0.1',
+    'images': [
+        'static/image/icon.png',
+    ],
 
     # any module necessary for this one to work correctly
     'depends': ['base', 'account', 'account_accountant', 'purchase', 'fleet', 'crm', 'stock' ],
