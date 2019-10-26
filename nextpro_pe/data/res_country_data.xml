@@ -229,6 +229,7 @@
 
 
 <!-- Lista de Distritos -->
+<!-- 
 <record model='res.country.state' id="ubigeos_010101"><field name="name">CHACHAPOYAS</field><field name="code">010101</field><field name="state_id" ref="ubigeos_01"/><field name="nxt_province_id" ref="ubigeos_0101"/><field name="country_id" ref="base.pe"/></record>
 <record model='res.country.state' id="ubigeos_010110"><field name="name">LEIMEBAMBA</field><field name="code">010110</field><field name="state_id" ref="ubigeos_01"/><field name="nxt_province_id" ref="ubigeos_0101"/><field name="country_id" ref="base.pe"/></record>
 <record model='res.country.state' id="ubigeos_020206"><field name="name">LA MERCED</field><field name="code">020206</field><field name="state_id" ref="ubigeos_02"/><field name="nxt_province_id" ref="ubigeos_0202"/><field name="country_id" ref="base.pe"/></record>
@@ -2068,7 +2069,7 @@
 <record model='res.country.state' id="ubigeos_100501"><field name="name">PALPA</field><field name="code">100501</field><field name="state_id" ref="ubigeos_10"/><field name="nxt_province_id" ref="ubigeos_1005"/><field name="country_id" ref="base.pe"/></record>
 <record model='res.country.state' id="ubigeos_100502"><field name="name">LLIPATA</field><field name="code">100502</field><field name="state_id" ref="ubigeos_10"/><field name="nxt_province_id" ref="ubigeos_1005"/><field name="country_id" ref="base.pe"/></record>
 <record model='res.country.state' id="ubigeos_100503"><field name="name">RIO GRANDE</field><field name="code">100503</field><field name="state_id" ref="ubigeos_10"/><field name="nxt_province_id" ref="ubigeos_1005"/><field name="country_id" ref="base.pe"/></record>
-
+-->
 
 <!-- Para modificar la estructura de la dirección para Perú-->
 <record id="base.pe" model="res.country">
