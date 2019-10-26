@@ -26,7 +26,7 @@
         'views/catalogo_06_views.xml', 
         #data
         'data/catalogos.xml',
-        #'data/res_country_data.xml', 
+        'data/res_country_data.xml', 
 
         # seguridad
         'security/ir.model.access.csv',   
