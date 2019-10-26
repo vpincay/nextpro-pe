@@ -31,6 +31,7 @@
 -->
 
 <!-- Lista de Provincias -->
+<!--
 <record model='res.country.state' id="ubigeos_0101"><field name="name">CHACHAPOYAS</field><field name="code">0101</field><field name="state_id" ref="ubigeos_01"/><field name="country_id" ref="base.pe"/></record>
 <record model='res.country.state' id="ubigeos_0102"><field name="name">BAGUA</field><field name="code">0102</field><field name="state_id" ref="ubigeos_01"/><field name="country_id" ref="base.pe"/></record>
 <record model='res.country.state' id="ubigeos_0103"><field name="name">BONGARA</field><field name="code">0103</field><field name="state_id" ref="ubigeos_01"/><field name="country_id" ref="base.pe"/></record>
@@ -226,7 +227,7 @@
 <record model='res.country.state' id="ubigeos_2502"><field name="name">PADRE ABAD</field><field name="code">2502</field><field name="state_id" ref="ubigeos_25"/><field name="country_id" ref="base.pe"/></record>
 <record model='res.country.state' id="ubigeos_2503"><field name="name">ATALAYA</field><field name="code">2503</field><field name="state_id" ref="ubigeos_25"/><field name="country_id" ref="base.pe"/></record>
 <record model='res.country.state' id="ubigeos_2504"><field name="name">PURUS</field><field name="code">2504</field><field name="state_id" ref="ubigeos_25"/><field name="country_id" ref="base.pe"/></record>
-
+-->
 
 <!-- Lista de Distritos -->
 <!-- 
@@ -2071,14 +2072,15 @@
 <record model='res.country.state' id="ubigeos_100503"><field name="name">RIO GRANDE</field><field name="code">100503</field><field name="state_id" ref="ubigeos_10"/><field name="nxt_province_id" ref="ubigeos_1005"/><field name="country_id" ref="base.pe"/></record>
 -->
 
+
 <!-- Para modificar la estructura de la dirección para Perú-->
-<!--
+
 <record id="base.pe" model="res.country">
     <field name="name">Peru</field>
     <field name="code">pe</field>
     <field name="currency_id" ref="base.PEN"/>
 </record>
--->
+
     
     </data>
 </openerp>
