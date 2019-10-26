@@ -24,6 +24,9 @@
         'views/res_company_view.xml',
         'views/res_partner_view.xml',
         'views/catalogo_06_views.xml', 
+        #data
+        'views/catalogos.xml',
+        'views/res_country_data.xml', 
 
         # seguridad
         'security/ir.model.access.csv',   
