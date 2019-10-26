@@ -2,7 +2,7 @@
 <openerp>
 	<data noupdate="0">		
         <!-- Lista de Departamentos/Regiones -->
-<!-- Se comenta ya se incluyen de forma nativa en la version 13
+<!-- Se comenta ya se incluyen de forma nativa en la version 13 -->
 <record model='res.country.state' id="ubigeos_01"><field name="name">AMAZONAS</field><field name="code">01</field><field name="country_id" ref="base.pe"/></record>
 <record model='res.country.state' id="ubigeos_02"><field name="name">ANCASH</field><field name="code">02</field><field name="country_id" ref="base.pe"/></record>
 <record model='res.country.state' id="ubigeos_03"><field name="name">APURIMAC</field><field name="code">03</field><field name="country_id" ref="base.pe"/></record>
@@ -28,7 +28,6 @@
 <record model='res.country.state' id="ubigeos_23"><field name="name">TUMBES</field><field name="code">23</field><field name="country_id" ref="base.pe"/></record>
 <record model='res.country.state' id="ubigeos_24"><field name="name">(vacío)</field><field name="code">24</field><field name="country_id" ref="base.pe"/></record>
 <record model='res.country.state' id="ubigeos_25"><field name="name">UCAYALI</field><field name="code">25</field><field name="country_id" ref="base.pe"/></record>
--->
 
 <!-- Lista de Provincias -->
 <!--
